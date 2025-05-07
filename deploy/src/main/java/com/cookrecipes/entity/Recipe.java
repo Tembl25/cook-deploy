@@ -34,7 +34,7 @@ public class Recipe {
     private String imageUrl;
     
     private Integer cookingTime;
-    
+
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
     private RecipeCategory category;
